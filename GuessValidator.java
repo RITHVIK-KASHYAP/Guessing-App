@@ -2,7 +2,7 @@
 Guessing App UC1 - Coded to show rules of the game 
 
 @author Rithvik
-@version 1.0
+@version 3.0
 
 */
 public class GuessValidator

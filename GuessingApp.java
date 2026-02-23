@@ -2,9 +2,10 @@
 Guessing App UC1 - Coded to show rules of the game 
 
 @author Rithvik
-@version 1.0
+@version 3.0
 
 */
+import java.util.Scanner;
 import java.util.Random;
 public class GuessingApp {
     public static void main(String[] args){
