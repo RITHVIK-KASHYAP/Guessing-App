@@ -1,12 +1,44 @@
 import java.util.Random;
+import java.util.Scanner;
+
 public class GuessingApp {
     public static void main(String[] args){
         System.out.println("Welcome to Guessing App");
-        GameConfig gameConfig=new GameConfig();
-        gameConfig.showRules();
+        GameConfig config=new GameConfig();
+        config.showRules();
+        Scanner scanner = new Scanner(System.in);
+        int attempts =0;
+        while(attempts<config.getMaxAttempts())
+        {
+            System.out.print("Enter your guess:");
+            int guess = scanner.nextInt();
+            attempts++;
+            String result= GuessValidator.validateGuess(guess, config.getTargetNumber());
+            System.out.println(result);
+        
+        if ("CORRECT".equals(result))
+        {
+            break;
+        }
     }
+}
 
     
+}
+class GuessValidator
+{
+    public static String validateGuess(int guess, int target)
+    {
+        if(guess == target)
+        {
+            return "CORRECT";
+        }
+        else if (guess<target)
+        {
+            return "LOW";
+        }
+        return "HIGH";
+    }
 }
 class GameConfig
 {
