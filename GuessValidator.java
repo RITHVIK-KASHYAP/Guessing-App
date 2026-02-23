@@ -1,9 +1,10 @@
 /*
 
 
+=======
 @author Rithvik
-@version 5.0
->>>>>>> feature/UC5GuessingApp
+@version 6.0
+>>>>>>> feature/UC6GuessingApp
 
 */
 public class GuessValidator

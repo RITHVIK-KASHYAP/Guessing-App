@@ -1,8 +1,7 @@
 /*
-Guessing App 
 
 @author Rithvik
-@version 5.0
+@version 6.0
 
 */
 import java.util.Scanner;
