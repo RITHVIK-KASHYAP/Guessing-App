@@ -1,3 +1,9 @@
+/*
+
+@author Rithvik
+@version 6.0
+
+*/
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
