@@ -1,3 +1,10 @@
+/*
+Guessing App 
+
+@author Rithvik
+@version 5.0
+
+*/
 public  class HintService
 {
     public static String generateHint(int target, int hintCount)
