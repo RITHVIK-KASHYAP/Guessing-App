@@ -1,12 +1,8 @@
 /*
-Guessing App UC1 - Coded to show rules of the game 
 
 @author Rithvik
-<<<<<<< HEAD
-@version 3.0
-=======
-@version 4.0
->>>>>>> feature/UC4GuessingApp
+@version 5.0
+>>>>>>> feature/UC5GuessingApp
 
 */
 public  class HintService

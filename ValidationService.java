@@ -1,8 +1,8 @@
 /*
-Guessing App UC1 - Coded to show rules of the game 
+Guessing App 
 
 @author Rithvik
-@version 4.0
+@version 5.0
 
 */
 public class ValidationService 
