@@ -1,4 +1,3 @@
-
 /*
 Guessing App UC1 - Coded to show rules of the game 
 
@@ -16,3 +15,4 @@ public class GuessingApp {
 
     
 }
+
