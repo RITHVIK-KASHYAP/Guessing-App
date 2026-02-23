@@ -1,3 +1,10 @@
+/*
+Guessing App UC1 - Coded to show rules of the game 
+
+@author Rithvik
+@version 1.0
+
+*/
 import java.util.Random;
 import java.util.Scanner;
 
@@ -25,39 +32,4 @@ public class GuessingApp {
 
     
 }
-class GuessValidator
-{
-    public static String validateGuess(int guess, int target)
-    {
-        if(guess == target)
-        {
-            return "CORRECT";
-        }
-        else if (guess<target)
-        {
-            return "LOW";
-        }
-        return "HIGH";
-    }
-}
-class GameConfig
-{
-    private final int MIN = 1;
-    private final int MAX = 100;
-    private final int MAX_ATTEMPTS= 7;
-    private final int MAX_HINTS = 3;
-    int targetNumber;
-    public GameConfig(){
-        Random random = new Random();
-        this.targetNumber=random.nextInt(MAX-MIN +1)+MIN;
-    }
-    public int getTargetNumber(){ return targetNumber;}
-    public int getMaxAttempts(){return MAX_ATTEMPTS;}
-    public int getMaxHints(){ return MAX_HINTS; }
-    public void showRules(){
-        System.out.println("Guess a number between"+MIN +" and "+MAX);
-        System.out.println("You Are "+MAX_ATTEMPTS);
-        System.out.println("Hints will be provided after wrong guesses.\n");
-        
-    }
-}
+
