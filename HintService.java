@@ -16,5 +16,4 @@ public  class HintService
         }
         return "No more hints available";
     }
-    
 }
