@@ -1,9 +1,3 @@
-/*
-
-@author Rithvik
-@version 6.0
-
-*/
 import java.util.Scanner;
 
 public class GameController {

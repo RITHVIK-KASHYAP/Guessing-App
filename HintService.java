@@ -1,9 +1,3 @@
-/*
-
-@author Rithvik
-@version 6.0
-
-*/
 public  class HintService
 {
     public static String generateHint(int target, int hintCount)

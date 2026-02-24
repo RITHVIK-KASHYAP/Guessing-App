@@ -1,9 +1,3 @@
-/*
-
-@author Rithvik
-@version 6.0
-
-*/
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,7 +8,7 @@ public class StorageService
     {
         try(BufferedWriter writer=new BufferedWriter(new FileWriter("game_results.txt",true)))
         {
-            writer.write("Player: "+player+" , Attempts " + attempts+" , Result: "+(win ? "WIN" : "LOSE"));
+            writer.write("Player: "+player+" , Attempts "+attempts+" , Result: "+(win?"WIN":"LOSE"));
             writer.newLine();
         }
         catch(IOException e)

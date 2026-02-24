@@ -1,11 +1,4 @@
-/*
-
-@author Rithvik
-@version 6.0
-
-*/
 import java.util.Random;
-
 public class GameConfig
 {
     private final int MIN = 1;

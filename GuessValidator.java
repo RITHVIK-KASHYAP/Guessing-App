@@ -1,9 +1,4 @@
-/*
 
-@author Rithvik
-@version 6.0
-
-*/
 public class GuessValidator
 {
     public static String validateGuess(int guess, int target)

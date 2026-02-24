@@ -1,9 +1,3 @@
-/*
-
-@author Rithvik
-@version 6.0
-
-*/
 public class ValidationService 
 {
     public static int validateInput(String input) throws InvalidInputException
