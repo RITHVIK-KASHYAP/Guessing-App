@@ -1,10 +1,3 @@
-/*
-Guessing App UC1 - Coded to show rules of the game 
-
-@author Rithvik
-@version 3.0
-
-*/
 import java.util.Scanner;
 
 public class GuessingApp {
