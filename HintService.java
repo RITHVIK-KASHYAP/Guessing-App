@@ -1,10 +1,3 @@
-/*
-Guessing App UC1 - Coded to show rules of the game 
-
-@author Rithvik
-@version 4.0
-
-*/
 public  class HintService
 {
     public static String generateHint(int target, int hintCount)
