@@ -1,3 +1,4 @@
+
 public class GuessValidator
 {
     public static String validateGuess(int guess, int target)
