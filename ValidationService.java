@@ -1,10 +1,3 @@
-/*
-Guessing App 
-
-@author Rithvik
-@version 5.0
-
-*/
 public class ValidationService 
 {
     public static int validateInput(String input) throws InvalidInputException

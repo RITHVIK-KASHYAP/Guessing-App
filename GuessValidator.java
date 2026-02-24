@@ -1,10 +1,4 @@
-/*
-Guessing App 
 
-@author Rithvik
-@version 5.0
-
-*/
 public class GuessValidator
 {
     public static String validateGuess(int guess, int target)

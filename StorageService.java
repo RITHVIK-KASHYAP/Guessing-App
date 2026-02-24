@@ -1,10 +1,3 @@
-/*
-Guessing App 
-
-@author Rithvik
-@version 5.0
-
-*/
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

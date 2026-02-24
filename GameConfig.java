@@ -1,12 +1,4 @@
-/*
-Guessing App 
-
-@author Rithvik
-@version 5.0
-
-*/
 import java.util.Random;
-
 public class GameConfig
 {
     private final int MIN = 1;
